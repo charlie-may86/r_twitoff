@@ -14,6 +14,7 @@ from web_app.models import db, migrate
 from web_app.routes.home_routes import home_routes
 from web_app.routes.book_routes import book_routes
 
+# this is where the database lives
 # DATABASE_URL = "sqlite:///twitoff_dspt7_development.db" # using relative filepath
 DATABASE_URL = "sqlite:////Users/charliemay/Desktop/Lambda/DSPT7/r_twitoff/web_app/twitoff_mike.db"
 
